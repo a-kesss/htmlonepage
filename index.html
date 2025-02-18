@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Page Title</title>
+    <link type="text/css" href="custom.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="content my-4">
+      <div class="container">
+        <div class="bg-white mb-4 rounded shadow py-4 px-4">
+          <h1 class="text-center mb-3">
+            Оформить доставку от пункта AVITO до ПВЗ FTEK
+          </h1>
+          <p class="lead mb-0 text-center">
+            Данная услуга позволяет получить посылки от AVITO в выбранном вами
+            пункте выдачи заказов FTEK.
+          </p>
+        </div>
+
+        <div class="rounded container" role="tablist">
+          <div class="row flex-wrap d-flex">
+            <div class="col-md-6 my-2">
+              <button
+                class="browser-tab position-relative overflow-hidden text-center shadow fw-semibold w-100 px-2 py-3 rounded-4 text-wrap border-0 active"
+                id="first-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#first"
+                type="button"
+                role="tab"
+                aria-controls="first"
+                aria-selected="true"
+              >
+                Оформление заказа в AVITO
+              </button>
+            </div>
+            <div class="col-md-6 my-2">
+              <button
+                class="browser-tab position-relative overflow-hidden text-center shadow fw-semibold w-100 px-2 py-3 rounded-4 text-wrap border-0"
+                id="second-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#second"
+                type="button"
+                role="tab"
+                aria-controls="second"
+                aria-selected="false"
+              >
+                Варианты доставки AVITO
+              </button>
+            </div>
+            <div class="col-md-6 my-2">
+              <button
+                class="browser-tab position-relative overflow-hidden text-center shadow fw-semibold w-100 px-2 py-3 rounded-4 border-0 text-wrap"
+                id="third-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#third"
+                type="button"
+                role="tab"
+                aria-controls="third"
+                aria-selected="false"
+              >
+                Заполнение заявки на доставку
+              </button>
+            </div>
+            <div class="col-md-6 my-2">
+              <button
+                class="browser-tab position-relative overflow-hidden text-center shadow fw-semibold w-100 px-2 py-3 rounded-4 text-wrap border-0"
+                id="four-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#four"
+                type="button"
+                role="tab"
+                aria-controls="four"
+                aria-selected="false"
+              >
+                Часто задаваемые вопросы
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="tab-content mt-4 px-md-4 px-2 shadow bg-white rounded"
+          id="instructionTabsContent"
+        >
+          <div
+            class="tab-pane py-3 fade show active"
+            id="first"
+            role="tabpanel"
+            aria-labelledby="first-tab"
+          >
+            <h2
+              class="step-title fw-bold mb-2 pb-2 text-center text-md-start ps-2"
+            >
+              Оформление заказа в AVITO
+            </h2>
+            <div class="step-description px-3 px-md-0">
+              <p class="mb-2 text-center text-md-start ps-0 ps-md-2">
+                Для того, чтобы оформить заказ на Avito, необходимо:
+              </p>
+              <ul
+                class="icon-list d-flex flex-column align-items-center justify-content-center d-md-inline-block text-center text-md-start list-unstyled ps-0 ps-md-3"
+              >
+                <li class="mb-2">
+                  <strong class="fs-6"
+                    ><i class="bi bi-person-plus-fill me-0 me-md-1"></i>
+                    Регистрация на AVITO:</strong
+                  >
+                  Необходимо зарегистрироваться на
+                  <a target="_blank" href="https://www.avito.ru/">сайте</a>,
+                  либо в приложении AVITO. При регистрации обязательно
+                  указывайте собственные контактные данные (ФИО, номер телефона,
+                  адрес электронной почты).
+                </li>
+                <li class="mb-2">
+                  <strong class="fs-6"
+                    ><i class="bi bi-shop-window me-0 me-md-1"></i> Выбор
+                    товаров:</strong
+                  >
+                  Выбираете товар, связываетесь с продавцом и оформляете
+                  Авито-доставку.
+                </li>
+                <li class="mb-2">
+                  <strong class="fs-6"
+                    ><i class="bi bi-cart-fill me-0 me-md-1"></i> Способ
+                    доставки:</strong
+                  >
+                  Выбираете один из способов и адрес доставки. Информация о
+                  способах доставки в разделе <b>"Варианты доставки AVITO"</b>.
+                </li>
+                <li class="mb-2">
+                  <strong class="fs-6"
+                    ><i class="bi bi-credit-card-fill me-0 me-md-1"></i> Оплата
+                    заказа:</strong
+                  >
+                  Самостоятельно оплачиваете заказ и отслеживаете.
+                </li>
+              </ul>
+              <div class="alert alert-danger p-3 rounded">
+                <i class="bi bi-shield-fill-exclamation me-2 fs-6"></i>Внимание!
+                Авито-доставка является высоко рисковой сделкой, поскольку
+                продавцы могут оказаться мошенниками и отправить другой товар
+                или отличающегося качества. При получении заказа явно
+                отличающего от заявленного Вами - наш менеджер согласует
+                дальнейшие действия. Если визуально нет возможности определить
+                соответствие – все риски ложатся на покупателя.
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane py-3 fade"
+            id="second"
+            role="tabpanel"
+            aria-labelledby="second-tab"
+          >
+            <h2
+              class="step-title fw-bold mb-2 pb-2 text-center text-md-start ps-2"
+            >
+              Варианты доставки AVITO
+            </h2>
+            <div class="step-description px-3 px-md-0">
+              <p class="mb-2 text-center text-md-start ps-0 ps-md-2">
+                У AVITO есть варианты доставки сторонними службами. Получателя
+                указываете в зависимости от курьерской доставки:
+              </p>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div
+                    class="card shadow d-flex justify-content-center position-relative mt-2 overflow-hidden rounded"
+                  >
+                    <div class="py-4 px-2 text-center">
+                      <h4 class="card-title fw-semibold mb-2">Почта России</h4>
+                      <p>
+                        <b>Адрес доставки:</b> Ростовская обл., г. Донецк, пр-кт
+                        Ленина, д. 3.
+                      </p>
+                      <p>
+                        <b>Доверенность:</b> Необходимо создать электронную
+                        доверенность на
+                        <b
+                          >Воротынцеву Татьяну Александровну +7(928)116-71-42</b
+                        >
+                        в личном кабинете Почты России.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="card shadow d-flex justify-content-center position-relative mt-2 overflow-hidden rounded"
+                  >
+                    <div class="py-4 px-2 text-center">
+                      <h4 class="card-title fw-semibold mb-2">DPD</h4>
+                      <p>
+                        <b>Адрес доставки:</b> ПВЗ DPD - Ростовская обл., г.
+                        Донецк, ул. М.Горького, д. 160.
+                      </p>
+                      <p>
+                        <b>Код получения:</b> Необходимо указать код получения в
+                        DPD.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="card shadow d-flex justify-content-center position-relative mt-2 overflow-hidden rounded"
+                  >
+                    <div class="py-4 px-2 text-center">
+                      <h4 class="card-title fw-semibold mb-2">Boxberry</h4>
+                      <p>
+                        <b>Адрес доставки:</b> ПВЗ Boxberry - Ростовская обл.,
+                        г. Донецк, ул. М.Горького, д. 160.
+                      </p>
+                      <p>
+                        <b>Код получения:</b> Необходимо указать код получения в
+                        Boxberry.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="card shadow d-flex justify-content-center position-relative mt-2 overflow-hidden rounded"
+                  >
+                    <div class="py-4 px-2 text-center">
+                      <h4 class="card-title fw-semibold mb-2">СДЭК</h4>
+                      <p>
+                        <b>Адрес доставки:</b> ПВЗ СДЭК - Ростовская обл., г.
+                        Донецк, ул. М.Горького, д. 160.
+                      </p>
+                      <p>
+                        <b>Код получения:</b> Необходимо указать код получения в
+                        СДЭК.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane py-3 fade"
+            id="third"
+            role="tabpanel"
+            aria-labelledby="third-tab"
+          >
+            <h2
+              class="step-title fw-bold mb-2 pb-2 text-center text-md-start ps-2"
+            >
+              Заполнение заявки на доставку
+            </h2>
+            <div class="step-description px-3 px-md-0">
+              <p class="mb-2 text-center text-md-start ps-0 ps-md-2">
+                Для заполнения заявки на доставку, выполните следующие шаги:
+              </p>
+              <ol class="ps-4">
+                <li>
+                  Перейдите на сайт службы доставки и выберите раздел "Заказ
+                  доставки".
+                </li>
+                <li>
+                  Заполните все необходимые поля, включая информацию о
+                  получателе и адрес доставки.
+                </li>
+                <li>
+                  Убедитесь, что указали правильный номер телефона для связи.
+                </li>
+                <li>
+                  Подтвердите заявку и следите за статусом доставки через личный
+                  кабинет.
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane py-3 fade"
+            id="four"
+            role="tabpanel"
+            aria-labelledby="four-tab"
+          >
+            <h2
+              class="step-title fw-bold mb-2 pb-2 text-center text-md-start ps-2"
+            >
+              Часто задаваемые вопросы
+            </h2>
+            <div class="step-description px-3 px-md-0">
+              <p class="mb-2 text-center text-md-start ps-0 ps-md-2">
+                Вот некоторые часто задаваемые вопросы:
+              </p>
+              <ul class="list-unstyled">
+                <li>
+                  <strong>Как отследить свою посылку?</strong> Вы можете
+                  отследить посылку, используя трек-номер, который будет
+                  отправлен вам на электронную почту после оформления заказа.
+                </li>
+                <li>
+                  <strong>Что делать, если посылка не пришла?</strong> Свяжитесь
+                  с службой поддержки выбранной службы доставки для уточнения
+                  информации о статусе вашей посылки.
+                </li>
+                <li>
+                  <strong>Как изменить адрес доставки?</strong> Вы можете
+                  изменить адрес доставки, обратившись в службу поддержки до
+                  момента отправки посылки.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
